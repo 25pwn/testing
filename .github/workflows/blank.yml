@@ -29,7 +29,7 @@ jobs:
       - name: script
         shell: bash
         run: |
-          echo $GITHUB_WORKSPACE
-          pwd
-          uname -a
-          whoami
+        echo $GITHUB_WORKSPACE
+        pwd
+        uname -a
+        whoami
