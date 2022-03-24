@@ -27,6 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: script
+        shell: bash
         run: |
         echo $GITHUB_WORKSPACE
         pwd
